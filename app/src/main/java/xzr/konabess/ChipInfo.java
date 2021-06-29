@@ -127,6 +127,7 @@ public class ChipInfo {
     private static class rpmh_levels_msmnile{
         private static final int RPMH_REGULATOR_LEVEL_OFFSET=1;
         public static final int[] levels={
+                16+RPMH_REGULATOR_LEVEL_OFFSET,
                 48+RPMH_REGULATOR_LEVEL_OFFSET,
                 56+RPMH_REGULATOR_LEVEL_OFFSET,
                 64+RPMH_REGULATOR_LEVEL_OFFSET,
@@ -135,6 +136,7 @@ public class ChipInfo {
                 128+RPMH_REGULATOR_LEVEL_OFFSET,
                 144+RPMH_REGULATOR_LEVEL_OFFSET,
                 192+RPMH_REGULATOR_LEVEL_OFFSET,
+                208+RPMH_REGULATOR_LEVEL_OFFSET,
                 224+RPMH_REGULATOR_LEVEL_OFFSET,
                 256+RPMH_REGULATOR_LEVEL_OFFSET,
                 320+RPMH_REGULATOR_LEVEL_OFFSET,
@@ -145,6 +147,7 @@ public class ChipInfo {
                 416+RPMH_REGULATOR_LEVEL_OFFSET
         };
         public static final String[] level_str={
+                "RETENTION",
                 "MIN_SVS",
                 "LOW_SVS_D1",
                 "LOW_SVS",
@@ -152,6 +155,7 @@ public class ChipInfo {
                 "LOW_SVS_L2",
                 "SVS",
                 "SVS_L0",
+                "SVS_L1P",
                 "SVS_L1",
                 "SVS_L2",
                 "NOM",
